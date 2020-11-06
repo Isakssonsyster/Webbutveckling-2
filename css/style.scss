@@ -1,0 +1,172 @@
+@import "./functions";
+@import "./variables";
+
+//Imports functions and variables
+
+header{
+
+    @include backgroundHeader($_backgroundColorHeader);
+
+   //Makes the background headers blue
+    
+
+    #p0, #p2, #p3{
+        @include fontBackground($_fontColor);
+        font-size: 22px;
+        position: relative;    
+       
+    }
+
+    //Makes the titles 22px big and color black, also the position to relative
+
+    #p0{
+        left: 200px;
+        top: 25px;
+    }
+
+    #p2{
+        text-align: center;
+        bottom: 0px;
+    }
+
+    #p3{
+        left: 1200px;
+        bottom: 18px;
+    }
+
+    h1{
+        @include fontBackground($_fontColor);
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+
+    //Makes the title a specific size and color, also a font, it is also aligned in the center
+
+    #line{
+        background-color: black;
+        height: 1px;
+        width: 1500px;
+        position: relative;
+        top: 20px;      
+    }
+
+}
+
+//Creates where the line is supposed to be and its size and color.
+
+.body{
+
+    @include backgroundColorBody($_backgroundColor);
+    height: 3000px;
+    
+    //Makes the whole body 3000px in height and the background color to light blue
+
+
+    #bluePicture{
+
+        width: 1000px;
+        position: relative;
+        left: 250px;
+        top: 75px;
+        
+    }
+
+    #OmSidan{
+
+        @include texts($_fontColor);
+        left: 250px;
+        top: 130px;
+
+        
+
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p5{
+        font-size: 22px;
+    }
+
+    #Motivera{
+
+        @include texts($_fontColor);
+        left: 840px;
+        bottom: 70px;
+    }
+
+    #happyBlue{
+
+        width: 500px;
+        position: relative;
+        left: 500px;
+        top: 75px;
+    }
+
+    #VemJag{
+
+        @include texts($_fontColor);
+        top: 130px;
+        left: 540px;
+    }
+
+    //Makes it so that the texts are a specific color, size, font, has the same width and height, also has the same position type
+
+
+}
+
+#Happy{
+    @include texts($_fontColor);
+    top: 130px;
+    left: 540px;
+   
+}
+
+#happypicture{
+
+    width: 700px;
+    position: relative;
+    top: 200px;
+    left: 380px;
+}
+
+
+
+#yourself{
+    @include texts($_fontColor);
+    top: 250px;
+    left: 525px;
+
+}
+
+#Quote{
+    width: 500px;
+    position: relative;
+    left: 510px;
+    bottom: 300px;
+}
+
+#citat{
+    width: 500px;
+    position: relative;
+    top: 700px;
+}
+
+#citaat{
+    width: 500px;
+    position: relative;
+    top: 800px;
+    left: 500px;
+}
+
+
+
+
+
+
+
+
+

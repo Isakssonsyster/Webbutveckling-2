@@ -1,0 +1,152 @@
+header {
+  background-color: lightblue;
+}
+
+header #p0, header #p2, header #p3 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  position: relative;
+}
+
+header #p0 {
+  left: 200px;
+  top: 25px;
+}
+
+header #p2 {
+  text-align: center;
+  bottom: 0px;
+}
+
+header #p3 {
+  left: 1200px;
+  bottom: 18px;
+}
+
+header h1 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+header #line {
+  background-color: black;
+  height: 1px;
+  width: 1500px;
+  position: relative;
+  top: 20px;
+}
+
+.body {
+  background-color: #dfeaee;
+  height: 3000px;
+}
+
+.body #bluePicture {
+  width: 1000px;
+  position: relative;
+  left: 250px;
+  top: 75px;
+}
+
+.body #OmSidan {
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  left: 250px;
+  top: 130px;
+}
+
+.body h2 {
+  font-size: 25px;
+}
+
+.body p5 {
+  font-size: 22px;
+}
+
+.body #Motivera {
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  left: 840px;
+  bottom: 70px;
+}
+
+.body #happyBlue {
+  width: 500px;
+  position: relative;
+  left: 500px;
+  top: 75px;
+}
+
+.body #VemJag {
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  left: 540px;
+}
+
+#Happy {
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  left: 540px;
+}
+
+#happypicture {
+  width: 700px;
+  position: relative;
+  top: 200px;
+  left: 380px;
+}
+
+#yourself {
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  left: 525px;
+}
+
+#Quote {
+  width: 500px;
+  position: relative;
+  left: 510px;
+  bottom: 300px;
+}
+
+#citat {
+  width: 500px;
+  position: relative;
+  top: 700px;
+}
+
+#citaat {
+  width: 500px;
+  position: relative;
+  top: 800px;
+  left: 500px;
+}
+/*# sourceMappingURL=style.css.map */

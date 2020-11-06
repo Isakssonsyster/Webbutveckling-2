@@ -1,0 +1,37 @@
+
+@mixin fontBackground($_fontColor){
+
+    color: $_fontColor;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+@mixin texts($_fontColor){
+
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    color: $_fontColor;
+    background-color: white;
+    text-align: center;
+    position: relative;
+
+   
+}
+
+@mixin backgroundHeader($_backgroundColorHeader){
+
+    background-color: $_backgroundColorHeader;
+}
+
+@mixin backgroundColorBlack($_backgroundColorBlack) {
+
+    color: $_backgroundColorBlack;
+}
+
+@mixin backgroundColorBody($_backgroundColor) {
+
+    background-color: $_backgroundColor;
+}
+
+
+
