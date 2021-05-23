@@ -1,0 +1,13 @@
+ @mixin backgroundHeader($_backgroundColorHeader){
+
+    background-color: $_backgroundColorHeader;
+}
+
+
+
+@mixin backgroundColorBody($_backgroundColor) {
+
+    background-color: $_backgroundColor;
+}
+
+

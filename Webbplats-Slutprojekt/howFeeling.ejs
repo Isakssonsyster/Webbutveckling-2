@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/howFeeling.css">
+    <title>How Are You Feeling?</title>
+</head>
+<body>
+    
+
+    <header>
+
+        <div id="innerHeader">
+
+            <div id="logoContainer">
+
+                <h1>Happy Helper</h1>
+
+            </div>
+
+        <ul class="navBar">
+
+            <a href="/"><li>Home</li></a>
+            <a href="howFeeling"><li>How are you feeling?</li></a>
+            <a href="contactUs"><li>Contact us</li></a>
+            <a href="info"><li>Information</li></a>
+
+        </ul>
+
+        </div>
+    </header>
+
+
+    <div id="body">
+
+        <img id="pic1" src="images/47dbda49a41f67f0f739ae0262dcce95851006d8_00.jpg">
+
+        <form action="/howFeeling" method="POST">
+            <label id="forGreeting" for="greeting">Hi!</label> <br>
+            <input type="text" id="greeting" name="greeting"> <br>
+            <label id="forHowfeeling" for="howFeeling">How Are You Feeling Today?</label> <br>
+            <input type="text" id="howFeeling" name="howFeeling"> <br>
+            <label id="forWhy" for="Why">Why Are You Feeling Like That?<br></label>
+            <input type="text" id="Why" name="Why"> <br>
+            <label id="forTalkMore" for="TalkMore">I Understand, If You Want To Talk More, Go To The Information Website<br></label>
+            <input type="submit" value="Click To Save How You Are Feeling Today" id="TalkMore" name="TalkMore"> <br>
+          
+        </form>
+
+        <div id="feelings">
+            <% for( let i = 0; i < feeling.length; i++ ) { %>
+                <h1> <%- feeling[i].greeting %> </h1>
+                <p> <%- feeling[i].howFeeling %> </p>
+                <p> <%- feeling[i].Why %> </p>
+            <% } %>
+        </div>
+        
+        
+
+    </div>
+
+
+    <footer>
+
+        <div class="innerFooter">
+            <ul id="footerLinks">
+                <a href="https://www.instagram.com/isabellaisaxsson/"><li><img id="pic5" src="images/1024px-Instagram_icon.png"></li></a>
+                <a href="https://www.facebook.com/isabella.isaksson.75/"><li><img id="pic6" src="images/Facebook-icon.png"></li></a>
+                <a href="https://www.linkedin.com/in/isabella-isaksson-904bab205/"><li><img id="pic7" src="images/1024px-Linkedin_icon.svg.png"></li></a>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
